@@ -164,5 +164,6 @@ Refer to the `model.summary()` output in the console when running the script for
 * Experiment with different CNN architectures (e.g., ResNet, VGG variants).
 * Perform hyperparameter tuning for potentially better performance.
 * Implement techniques to specifically address confusion between visually similar characters.
-#   C N N - b a s e d - O p t i c a l - C h a r a c t e r - R e c o g n i t i o n - O C R -  
+#   C N N - b a s e d - O p t i c a l - C h a r a c t e r - R e c o g n i t i o n - O C R - 
+ 
  
