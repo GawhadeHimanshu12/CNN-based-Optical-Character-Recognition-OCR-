@@ -58,40 +58,7 @@ This detailed output helps evaluate precisely how well the model performs and wh
 * Matplotlib (`matplotlib`)
 * Seaborn (`seaborn`) (for confusion matrix visualization)
 
-## Installation
 
-1.  **Clone the repository:**
-    ```bash
-    git clone <your-repository-url>
-    cd <repository-name>
-    ```
-2.  **Create a virtual environment (recommended):**
-    ```bash
-    python -m venv venv
-    # On Windows
-    venv\Scripts\activate
-    # On macOS/Linux
-    source venv/bin/activate
-    ```
-3.  **Install dependencies:**
-    Create a `requirements.txt` file with the following content:
-    ```txt
-    tensorflow
-    opencv-python
-    scikit-learn
-    numpy
-    matplotlib
-    seaborn
-    ```
-    Then install them:
-    ```bash
-    pip install -r requirements.txt
-    ```
-4.  **Prepare the Dataset:**
-    * Download or create your character dataset.
-    * Organize it in the `font/Fnt/` directory according to the structure described in the [Dataset](#dataset) section. If your dataset path is different, modify the `data_dir` variable in the script.
-5.  **Prepare Prediction Image:**
-    * Place the image you want to test prediction on (e.g., `hw.png`) in the project's root directory, or update the `image_path` variable in the script accordingly.
 
 ## Usage
 
