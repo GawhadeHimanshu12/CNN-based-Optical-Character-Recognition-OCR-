@@ -123,15 +123,4 @@ Refer to the `model.summary()` output in the console when running the script for
 * **Font Dependence:** The model's accuracy will be best on fonts similar to those in the training dataset.
 * **Limited Character Set:** Only recognizes alphanumeric characters (0-9, A-Z, a-z). It does not support punctuation, special symbols, or other languages.
 
-## Potential Future Improvements
 
-* Implement more robust character segmentation techniques (e.g., projection profiles, connected components analysis with better filtering, or deep learning-based segmentation).
-* Train on a more diverse dataset including various fonts and augmentations.
-* Expand the character set to include punctuation and symbols.
-* Experiment with different CNN architectures (e.g., ResNet, VGG variants).
-* Perform hyperparameter tuning for potentially better performance.
-* Implement techniques to specifically address confusion between visually similar characters.
-
-## License
-
-(Optional: Add license information here, e.g., MIT License, Apache 2.0. If you add a LICENSE file, link to it.)
